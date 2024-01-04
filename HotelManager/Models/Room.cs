@@ -11,7 +11,7 @@ namespace HotelManager.Models
         }
 
         public int Id { get; set; }
-        public string? RoomName { get; set; }
+        public string? RoomName { get;  set; }
         public string? Status { get; set; }
         public int HId { get; set; }
         public decimal? Price { get; set; }
